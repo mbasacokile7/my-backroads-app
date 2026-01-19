@@ -72,3 +72,5 @@ export const footerLinks = [
   { id: 3, href: "#services", text: "services" },
   { id: 4, href: "#featured", text: "featured" },
 ];
+
+//Footer Socials
