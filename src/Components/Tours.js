@@ -15,6 +15,7 @@ function Tours() {
         {tourData.map((tour) => {
           return (
             <TourCard
+              key={tour.id}
               tourTitle={tour.title}
               tourImg={tour.img}
               tourCountry={tour.country}

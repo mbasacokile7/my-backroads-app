@@ -64,3 +64,11 @@ export const tourData = [
     date: "December 5th, 2026",
   },
 ];
+
+// Footer Links
+export const footerLinks = [
+  { id: 1, href: "#home", text: "home" },
+  { id: 2, href: "#about", text: "about" },
+  { id: 3, href: "#services", text: "services" },
+  { id: 4, href: "#featured", text: "featured" },
+];
