@@ -27,7 +27,7 @@ function Navbar() {
 
         <ul className="nav-icons">
           {socialLinks.map((sl) => {
-            return <SocialLink link={sl.href} icon={sl.icon} />;
+            return <SocialLink key={sl.id} link={sl.href} icon={sl.icon} />;
           })}
         </ul>
       </div>

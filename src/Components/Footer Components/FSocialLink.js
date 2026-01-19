@@ -4,7 +4,7 @@ function FSocialLink(props) {
   const { link, icon } = props;
   return (
     <li>
-      <a href={link} target="_blank" className="footer-icon">
+      <a href={link} target="_blank" className="footer-icon" rel="noreferrer">
         <i className={icon}></i>
       </a>
     </li>
